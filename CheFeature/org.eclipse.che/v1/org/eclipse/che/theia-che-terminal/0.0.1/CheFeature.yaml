@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: CheFeature
+metadata:
+  name: theia-che-terminal
+spec:
+  version: 1.0.0
+  description: Some meaningful description of Theia's terminal
+  services:
+    - name : org.eclipse.che.terminal
+      version : 1.0.0
+    - name : org.eclipse.che.theia-ide
+      version : 0.0.1
+      parameters:
+          - name: THEIA_PLUGINS
+            value: org.eclipse.che.terminal@latest
