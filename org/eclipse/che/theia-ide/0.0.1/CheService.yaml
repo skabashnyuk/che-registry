@@ -3,6 +3,7 @@ kind: CheService
 metadata:
  name: io.typefox.theia-ide.che-service
 spec:
+ version: 0.0.1
  services:
    - apiVersion: v1
      kind: Service
