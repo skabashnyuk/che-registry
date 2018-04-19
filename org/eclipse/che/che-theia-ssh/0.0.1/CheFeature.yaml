@@ -4,7 +4,7 @@ metadata:
   name: che-theia-ssh
 spec:
   version: 0.0.1
-  description: Theia's ssh plugin
+  description: Theia's new ssh plugin
   services:
     - name : org.eclipse.che.theia-ide
       version : 0.0.1
