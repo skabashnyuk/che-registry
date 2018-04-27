@@ -4,10 +4,10 @@ metadata:
   name: che-theia-github
 spec:
   version: 0.0.1
-  description: Theia's ssh plugin
+  description: Theia's Github plugin
   services:
     - name : org.eclipse.che.theia-ide
       version : 0.0.1
       parameters:
           - name: THEIA_PLUGINS
-            value: che-theia-ssh-plugin@latest
+            value: che-theia-github.tar.gz
