@@ -5,19 +5,20 @@ metadata:
 spec:
  version: 0.0.1 
  containers:
-   - image: eclipse/che-theia:nightly
-     resources:
-       requests:
-         memory:200Mi
-     env:
-       - name: THEIA_PLUGINS
-         value: ${THEIA_PLUGINS}
-     volumes:
-       - mountPath: "/projects"
-         name: projects   
-     servers:
-       - name: theia
+    - image: eclipse/che-theia:nightly
+      resources:
+        requests:
+          memory: 200Mi
+      env:
+        - name: THEIA_PLUGINS
+          value: ${THEIA_PLUGINS}
+      volumes:
+        - mountPath: "/projects"
+          name: projects
+      servers:
+        - name: theia
           attributes:
-             type: ide
-          port: '3000'
+            type: ide
+            internal : true
+          port: 3000
           protocol: http
