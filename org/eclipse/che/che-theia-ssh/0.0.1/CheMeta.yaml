@@ -1,7 +1,6 @@
 version: "0.0.1"
 name: "che-theia-ssh"
 title: "SSH Client"
-fqn: "RedHat/che-svn-client"
 homepage: "https://github.com/eclipse/che-theia-ssh"
 description: "Eclipse Che Plugin for SSH"
 created_at: "2015-11-22T05:40:57Z"
