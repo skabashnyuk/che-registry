@@ -10,4 +10,4 @@ spec:
       version : 0.0.1
       parameters:
           - name: THEIA_PLUGINS
-            value: che-theia-ssh-plugin@latest
+            value: eclipse-che-ssh-extension.tar.gz
