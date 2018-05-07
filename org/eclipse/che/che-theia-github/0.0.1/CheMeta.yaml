@@ -1,6 +1,6 @@
 version: "0.0.1"
 name: "che-theia-github"
-title: "SSH Client"
+title: "Github Client"
 homepage: "https://github.com/eclipse/che-theia-github"
 description: "Eclipse Che Plugin for Github"
 created_at: "2015-11-22T05:40:57Z"
